@@ -1,0 +1,19 @@
+{
+  "failure_modes": {
+    "ECU": [
+      {"mode": "Total loss of communication", "severity": 9, "effect": "Vehicle enters limp mode / loss of propulsion"},
+      {"mode": "Microcontroller overheating", "severity": 8, "effect": "Thermal throttling or sudden system reset"}
+    ],
+    "Sensor": [
+      {"mode": "Signal drift / Invalid data output", "severity": 7, "effect": "Incorrect actuator triggering"},
+      {"mode": "Open circuit / Short to ground", "severity": 6, "effect": "Check engine light / Loss of feature availability"}
+    ],
+    "Power Electronics": [
+      {"mode": "Overcurrent / Short circuit", "severity": 10, "effect": "Thermal runaway / Potential vehicle fire hazard"},
+      {"mode": "Voltage fluctuation", "severity": 8, "effect": "Damage to downstream low-voltage ECUs"}
+    ]
+  }
+}
+
+
+# Defines standard automotive hazard failure modes and ASIL classifications according to ISO 26262.
