@@ -1,0 +1,30 @@
+{
+  "system_name": "Next-Gen eAxle Powertrain Control",
+  "components": [
+    {
+      "id": "ECU-01",
+      "type": "ECU",
+      "name": "Inverter Control Module",
+      "aspice_compliant": true,
+      "iso26262_asil": "C"
+    },
+    {
+      "id": "SEN-02",
+      "type": "Sensor",
+      "name": "Rotor Position Sensor",
+      "aspice_compliant": false,
+      "iso26262_asil": "B"
+    },
+    {
+      "id": "PWR-03",
+      "type": "Power Electronics",
+      "name": "DC-DC Converter Subassembly",
+      "aspice_compliant": true,
+      "iso26262_asil": "D"
+    }
+  ]
+}
+
+
+
+# A mocked input system architecture diagram representing a standard vehicle subsystem (e.g., an eAxle powertrain).
