@@ -1,4 +1,4 @@
-![autocompliance-fmea-validator](AutoCompliance-FMEA_Validator.jpg)
+![autocompliance-fmea-validator](assets/AutoCompliance-FMEA_Validator.jpg)
 
 # autocompliance-fmea-validator
 
